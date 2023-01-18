@@ -517,11 +517,6 @@ video {
   bottom: 0px;
 }
 
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
 .ml-4 {
   margin-left: 1rem;
 }
@@ -587,19 +582,14 @@ video {
   background-position: center;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-\[20\%\] {
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
 .px-\[10\%\] {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -611,27 +601,22 @@ video {
   line-height: 2.25rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-light {
   font-weight: 300;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .tracking-widest {
@@ -641,22 +626,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.delay-75 {
-  transition-delay: 75ms;
-}
-
-.delay-1000 {
-  transition-delay: 1000ms;
-}
-
-.delay-100 {
-  transition-delay: 100ms;
-}
-
-.delay-500 {
-  transition-delay: 500ms;
 }
 
 header {
@@ -720,10 +689,6 @@ header {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
-
-  .md\:font-bold {
-    font-weight: 700;
-  }
 }
 
 @media (min-width: 620px) {
@@ -769,6 +734,11 @@ header {
     grid-template-columns: repeat(7, minmax(0, 1fr));
   }
 
+  .lg\:px-\[20\%\] {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
   .lg\:px-7 {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
@@ -777,10 +747,5 @@ header {
   .lg\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .lg\:px-\[20\%\] {
-    padding-left: 20%;
-    padding-right: 20%;
   }
 }
