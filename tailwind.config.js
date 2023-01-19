@@ -26,6 +26,9 @@ module.exports = {
       widest: '.1em',
       widest: '.55em',
     },
+    backgroundImage: {
+      'utama': "url('asset/bg.jpg')"
+    },
     extend: {},
   },
   plugins: [],
