@@ -27,7 +27,7 @@ module.exports = {
       widest: '.55em',
     },
     backgroundImage: {
-      'utama': "url('./asset/bg.jpg')"
+      'utama': "url('/asset/bg.jpg')"
     },
     extend: {},
   },
